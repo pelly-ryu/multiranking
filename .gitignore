@@ -9,6 +9,7 @@ lerna-debug.log*
 
 node_modules
 dist
+multiranking.zip
 dist-ssr
 *.local
 
