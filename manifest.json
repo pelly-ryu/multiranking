@@ -1,0 +1,12 @@
+{
+  "name": "Multiranking",
+  "description": "Check multi-products' rankings in Naver Shopping",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://search.shopping.naver.com/search/*"],
+      "js": ["src/content-script.ts"]
+    }
+  ]
+}
