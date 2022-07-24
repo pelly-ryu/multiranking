@@ -62,7 +62,7 @@ export function generateResultRow(result: searchResult) {
   const resultEl = document.createElement("td");
   resultEl.classList.add(cellStyle);
   if (result.page && result.index) {
-    resultEl.innerText = `${40 * result.page + result.index} (${
+    resultEl.innerText = `${40 * (result.page - 1) + result.index} (${
       result.index
     } in page ${result.page})`;
   } else {
